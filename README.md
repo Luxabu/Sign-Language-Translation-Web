@@ -94,7 +94,3 @@ This opens one terminal for the backend and one terminal for the frontend.
 - `backend/requirements.txt` - Python dependencies for the backend
 - `backend/run_dev.bat`, `backend/run_dev.ps1` - startup scripts for development
 - `frontend/SETUP_BACKEND_CONFIG.md` - frontend/backend configuration tips
-
-## 🙏 Ghi chú
-
-Nếu bạn muốn, tôi có thể viết thêm một phiên bản README tiếng Anh hoàn chỉnh, hoặc tạo bản `README-GITHUB.md` riêng cho kho mã.
