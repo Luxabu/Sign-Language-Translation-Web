@@ -1,0 +1,33 @@
+# --- Nhóm Web & Backend ---
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# --- Nhóm AI & Xử lý ảnh (Quan trọng: Phải dùng Numpy 1.x) ---
+numpy==1.26.4
+# Dùng bản headless để nhẹ và tránh lỗi thiếu thư viện GUI trên Pi
+opencv-python-headless==4.8.1.78
+opencv-contrib-python-headless==4.8.1.78
+mediapipe==0.10.14
+Pillow==10.0.0
+
+# --- Nhóm Phụ thuộc "Xương máu" (Né lỗi AttributeError và ModuleNotFound) ---
+protobuf==4.25.9
+sympy
+networkx
+jinja2
+fsspec
+requests
+typing-extensions
+packaging
+kiwisolver
+contourpy
+matplotlib
+
+# --- Nhóm Âm thanh & JAX ---
+SpeechRecognition==3.10.0
+sounddevice==0.5.5
+jax==0.4.23

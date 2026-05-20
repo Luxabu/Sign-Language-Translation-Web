@@ -1,0 +1,40 @@
+﻿# Ignore local environments, temporary files, and generated assets
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+*.pytest_cache/
+
+# Virtual environments
+backend/sign/
+backend/app/checkpoints
+# Node
+node_modules/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+*.temp
+
+
+# HTTP server artifacts
+*.pid
+
+# Frontend build artifacts if generated locally
+dist/
+build/
+
+# Environment variables
+.env
+*.env
